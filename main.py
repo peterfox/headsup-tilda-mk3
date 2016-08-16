@@ -1,8 +1,8 @@
-### Author: Ryan Field
+### Author: Peter Fox and Ryan Field
 ### Description: Heads Up!
 ### Category: Games
 ### License: MIT
-### Appname: Heads Up!
+### Appname: Head Sup!
 ### Built-in: yes
 
 import pyb
@@ -20,7 +20,7 @@ def splash():
     ugfx.area(0,0,ugfx.width(),ugfx.height(),ugfx.html_color(0xC390D4))
     ugfx.set_default_font(ugfx.FONT_TITLE)
     ugfx.display_image(0,10, "apps/headsup/headsupsplash.gif")
-    ugfx.text(30, 190, "Heads Up ", ugfx.RED)
+    ugfx.text(30, 190, "Head Sup ", ugfx.RED)
     ugfx.text(30, 215, "Press A to Continue ", ugfx.GREEN)
     while True:
         pyb.wfi()
@@ -83,8 +83,6 @@ def changePixel(color):
 
 playing = 1
 while playing:
-	#score = one_round()
-    #score = 1
     splash()
     level = menu()
     score = loadGame(level)
