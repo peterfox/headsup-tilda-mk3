@@ -1,5 +1,5 @@
 ### Author: Peter Fox and Ryan Field
-### Description: Heads Up!
+### Description: Head Sup!
 ### Category: Games
 ### License: MIT
 ### Appname: Head Sup!
